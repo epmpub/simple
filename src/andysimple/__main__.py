@@ -1,5 +1,5 @@
 # src/simple/__main__.py
-from simple import main
+from andysimple import main
 
 if __name__ == "__main__":
     main()

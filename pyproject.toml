@@ -1,13 +1,12 @@
 [project]
-name = "simple"
-version = "0.1.0"
-description = "A simple CLI tool"
+name = "andysimple"
+version = "0.1.2"
+description = "A simple CLI tool for greeting"
 readme = "README.md"
 authors = [
     { name = "Andy Hu", email = "sheng.hu@live.cn" }
 ]
-readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "click>=8.3.2",
 ]
@@ -16,7 +15,7 @@ license = { text = "MIT" } # 建议添加开源协议
 Homepage = "https://github.com/epmpub/simple"
 
 [project.scripts]
-simple = "simple:main"
+simple = "andysimple:main"
 
 [build-system]
 requires = ["uv_build>=0.9.0,<0.10.0"]

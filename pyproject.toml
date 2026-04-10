@@ -1,0 +1,23 @@
+[project]
+name = "simple"
+version = "0.1.0"
+description = "A simple CLI tool"
+readme = "README.md"
+authors = [
+    { name = "Andy Hu", email = "sheng.hu@live.cn" }
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.3.2",
+]
+license = { text = "MIT" } # 建议添加开源协议
+[project.urls]
+Homepage = "https://github.com/epmpub/simple"
+
+[project.scripts]
+simple = "simple:main"
+
+[build-system]
+requires = ["uv_build>=0.9.0,<0.10.0"]
+build-backend = "uv_build"

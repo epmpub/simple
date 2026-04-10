@@ -9,7 +9,7 @@ def main(name, repeat):
         click.echo(f"Hello, {name}!")
     
     # 你之前想运行的 Goodbye 逻辑放在这里
-    click.echo("Goodbye from simple!")
+    click.echo("Goodbye from simples __init__ main!")
 
 if __name__ == "__main__":
     main()

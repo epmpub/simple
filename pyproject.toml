@@ -15,7 +15,7 @@ license = { text = "MIT" } # 建议添加开源协议
 Homepage = "https://github.com/epmpub/simple"
 
 [project.scripts]
-simple = "andysimple:main"
+andysimple = "andysimple:main"
 
 [build-system]
 requires = ["uv_build>=0.9.0,<0.10.0"]
